@@ -21,7 +21,7 @@ Or
 Models by ParlAI team are baselines. Models of those are separately put in directory `ParlAI/data/models/convai2/`, for example, the kvmemnn model is put in `ParlAI/data/models/convai2/kvmemnn/kvmemnn.tgz`.
 
 因为ParlAI的baseline模块依赖了很多预训练资源，存在aws上不方便中国用户下载，所以为了方便，把这些与训练的资源已经在[百度云](https://pan.baidu.com/s/1PwsbFJo0FIvEhmiu4T4AIw)上。
-下载之后创建目录在ParlAI目录创建data/文件夹，解压下载的model.tar.gz， `tar zxvf model.tar.gz`.
+下载之后, 在ParlAI/data/（没有的话创建一个即可）文件夹下解压model.tar.gz，`tar zxvf model.tar.gz`.
 
 
 ## Papers 
