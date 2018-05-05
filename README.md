@@ -14,7 +14,7 @@ https://pan.baidu.com/s/1Akz9PpbNvlvVMtp9NxXBDA
 
 ## Papers 
 
-[A Persona-Based Neural Conversation Model](https://arxiv.org/abs/1603.06155)
-[A Neural Conversational Model](https://arxiv.org/abs/1506.05869)
-[A Diversity-Promoting Objective Function for Neural Conversation Models](https://arxiv.org/abs/1510.03055)
-[Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243)
+[A Persona-Based Neural Conversation Model](https://arxiv.org/abs/1603.06155)  
+[A Neural Conversational Model](https://arxiv.org/abs/1506.05869)  
+[A Diversity-Promoting Objective Function for Neural Conversation Models](https://arxiv.org/abs/1510.03055)  
+[Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243)  
