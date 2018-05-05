@@ -5,16 +5,16 @@
 
 Official train dataset [download link](https://s3.amazonaws.com/fair-data/parlai/convai2/convai2.tar.gz)
 
-中国用户下载amazonaws的资源比较慢，这里有一个百度云盘convai2.tar.gz的镜像, [Mirror for chinease user](https://pan.baidu.com/s/1Akz9PpbNvlvVMtp9NxXBDA)
+中国用户下载amazonaws的资源比较慢，这里有一个百度云盘convai2.tar.gz的镜像, [Mirror for chinese user](https://pan.baidu.com/s/1Akz9PpbNvlvVMtp9NxXBDA)
 
 
 ## Baseline models
 
 Models by ParlAI team are baselines. Models of those are separately put in directory `ParlAI/data/models/convai2/`, for example, the kvmemnn model is put in `ParlAI/data/models/convai2/kvmemnn/kvmemnn.tgz`.
 
-0. kvmemnn [official parlai](https://s3.amazonaws.com/fair-data/parlai/_models/convai2/kvmemnn.tgz)[mirror for chinease user]()
-0. language_model [official parlai](https://s3.amazonaws.com/fair-data/parlai/_models)[mirror for chinease user]()
-0. seq2seq [official parlai](https://s3.amazonaws.com/fair-data/parlai/_models/convai2/convai2_self_seq2seq_model.tgz)[mirror for chinease user]()
+0. kvmemnn [official parlai](https://s3.amazonaws.com/fair-data/parlai/_models/convai2/kvmemnn.tgz)[mirror for chinese user]()
+0. language_model [official parlai](https://s3.amazonaws.com/fair-data/parlai/_models)[mirror for chinese user]()
+0. seq2seq [official parlai](https://s3.amazonaws.com/fair-data/parlai/_models/convai2/convai2_self_seq2seq_model.tgz)[mirror for chinese user]()
 
 ## Papers 
 
