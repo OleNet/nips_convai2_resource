@@ -10,6 +10,7 @@ Official train dataset [download link](https://s3.amazonaws.com/fair-data/parlai
 
 ## Baseline models
 
+Models by ParlAI team are baselines. Models of those are separately put in directory `ParlAI/data/models/convai2/`, for example, the kvmemnn model is put in `ParlAI/data/models/convai2/kvmemnn/kvmemnn.tgz`.
 
 0. kvmemnn [official parlai](https://s3.amazonaws.com/fair-data/parlai/_models/convai2/kvmemnn.tgz)[mirror for chinease user]()
 0. language_model [official parlai](https://s3.amazonaws.com/fair-data/parlai/_models)[mirror for chinease user]()
