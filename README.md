@@ -7,13 +7,13 @@
 
 ## Dataset  
 
-Official train dataset [download link](https://s3.amazonaws.com/fair-data/parlai/convai2/convai2.tar.gz)
+Official train dataset download [link](https://s3.amazonaws.com/fair-data/parlai/convai2/convai2.tar.gz)
 
 Or
 
-中国用户下载amazonaws的资源比较慢，这里有一个百度云盘convai2.tar.gz的镜像, [link](https://pan.baidu.com/s/1Akz9PpbNvlvVMtp9NxXBDA)
+中国用户下载amazonaws的资源比较慢，这里有一个百度云盘[convai2.tar.gz](https://pan.baidu.com/s/1Akz9PpbNvlvVMtp9NxXBDA)的镜像, 
 
-下载的convai2.tar.gz 放在如下路径ParlAI/data/ConvAI2/convai2.tar.gz
+下载的convai2.tar.gz 放在如下路径:ParlAI/data/ConvAI2/convai2.tar.gz
 
 
 ## Baseline models
