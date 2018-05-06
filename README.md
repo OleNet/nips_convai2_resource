@@ -17,33 +17,12 @@ Or
 
 程序自动处理后，ParlAI/data/ConvAI2/目录中会包含如下文件：
 
-| train_both_original_no_cands.txt  |
+|  `ls ParlAI/data/ConvAI2/`        |
 |-----------------------------------|
+| train_both_original_no_cands.txt  |
 | train_both_original.txt           |
 | train_both_revised_no_cands.txt   |
-| train_both_revised.txt            |
-| train_none_original_no_cands.txt  |
-| train_none_original.txt           |
-| train_other_original_no_cands.txt |
-| train_other_original.txt          |
-| train_other_revised_no_cands.txt  |
-| train_other_revised.txt           |
-| train_self_original_no_cands.txt  |
-| train_self_original.txt           |
-| train_self_revised_no_cands.txt   |
-| train_self_revised.txt            |
-| valid_both_original_no_cands.txt  |
-| valid_both_original.txt           |
-| valid_both_revised_no_cands.txt   |
-| valid_both_revised.txt            |
-| valid_none_original_no_cands.txt  |
-| valid_none_original.txt           |
-| valid_other_original_no_cands.txt |
-| valid_other_original.txt          |
-| valid_other_revised_no_cands.txt  |
-| valid_other_revised.txt           |
-| valid_self_original_no_cands.txt  |
-| valid_self_original.txt           |
+| ... ...                           |
 | valid_self_revised_no_cands.txt   |
 | valid_self_revised.txt            |
 
