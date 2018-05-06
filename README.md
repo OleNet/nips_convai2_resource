@@ -13,14 +13,20 @@ Or
 
 中国用户下载amazonaws的资源比较慢，这里有一个百度云盘[convai2.tar.gz](https://pan.baidu.com/s/1Akz9PpbNvlvVMtp9NxXBDA)的镜像, 
 
-下载的convai2.tar.gz 放在如下路径:ParlAI/data/ConvAI2/convai2.tar.gz
+下载的convai2.tar.gz 放在如下路径:ParlAI/data/ConvAI2/convai2.tar.gz,  注意不需要解压。
 
 
 ## Baseline models
 
 因为ParlAI的baseline模块依赖了很多预训练资源，存在aws上不方便中国用户下载，所以为了方便，把这些与训练的资源已经在[百度云](https://pan.baidu.com/s/1PwsbFJo0FIvEhmiu4T4AIw)上。
+
 下载之后, 在ParlAI/data/（没有的话创建一个即可）文件夹下解压model.tar.gz，`tar zxvf model.tar.gz`.
 
+## Run Example 
+
+run一个baseline脚本，测试是否上述数据准备成功：
+
+`cd ParlAI; python projects/convai2/baselines/kvmemnn/eval_f1.py`
 
 ## Papers 
 
