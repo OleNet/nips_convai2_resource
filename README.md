@@ -15,6 +15,55 @@ Or
 
 下载的convai2.tar.gz 放在如下路径:ParlAI/data/ConvAI2/convai2.tar.gz,  注意不需要解压。
 
+程序自动处理后，ParlAI/data/ConvAI2/目录中会包含如下文件：
+
+| train_both_original_no_cands.txt  |
+|-----------------------------------|
+| train_both_original.txt           |
+| train_both_revised_no_cands.txt   |
+| train_both_revised.txt            |
+| train_none_original_no_cands.txt  |
+| train_none_original.txt           |
+| train_other_original_no_cands.txt |
+| train_other_original.txt          |
+| train_other_revised_no_cands.txt  |
+| train_other_revised.txt           |
+| train_self_original_no_cands.txt  |
+| train_self_original.txt           |
+| train_self_revised_no_cands.txt   |
+| train_self_revised.txt            |
+| valid_both_original_no_cands.txt  |
+| valid_both_original.txt           |
+| valid_both_revised_no_cands.txt   |
+| valid_both_revised.txt            |
+| valid_none_original_no_cands.txt  |
+| valid_none_original.txt           |
+| valid_other_original_no_cands.txt |
+| valid_other_original.txt          |
+| valid_other_revised_no_cands.txt  |
+| valid_other_revised.txt           |
+| valid_self_original_no_cands.txt  |
+| valid_self_original.txt           |
+| valid_self_revised_no_cands.txt   |
+| valid_self_revised.txt            |
+
+| both | none | other | self | 说明            |
+|------|------|-------|------|---------------|
+| O    | X    | X     | X    | 两者的persona都有  |
+| X    | O    | X     | X    | 两者的persona都没有 |
+| X    | X    | O     | X    | 只有对方的persona  |
+| X    | X    | X     | O    | 只有自己的persona  |
+
+| original | revise | 说明              |
+|----------|--------|-----------------|
+| O        | X      | 原始的persona产出的数据 |
+| X        | O      | 修正的persona产出的数据 |
+
+| no_cands | 说明  |
+|----------|-----|
+| O        | 无候选 |
+
+
 
 ## Baseline models
 
