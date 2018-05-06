@@ -17,27 +17,31 @@ Or
 
 程序自动处理后，ParlAI/data/ConvAI2/目录中会包含如下文件：
 
-|  `ls ParlAI/data/ConvAI2/`        |
-|-----------------------------------|
-| train_both_original_no_cands.txt  |
-| train_both_original.txt           |
-| train_both_revised_no_cands.txt   |
-| ... ...                           |
-| valid_self_revised_no_cands.txt   |
-| valid_self_revised.txt            |
+|id|  `ls ParlAI/data/ConvAI2/`        |
+|--|-----------------------------------|
+|1| train_both_original_no_cands.txt  |
+|2| train_both_original.txt           |
+|3| train_both_revised_no_cands.txt   |
+|| ... ...                           |
+|27| valid_self_revised_no_cands.txt   |
+|28| valid_self_revised.txt            |
 
-| both | none | other | self | 说明            |
+文件名也代表了数据的组织方式
+按照是否含有self/other 的 persona(画像)组织
+| both | none | other | self | 说明            |
 |------|------|-------|------|---------------|
 | O    | X    | X     | X    | 两者的persona都有  |
 | X    | O    | X     | X    | 两者的persona都没有 |
 | X    | X    | O     | X    | 只有对方的persona  |
 | X    | X    | X     | O    | 只有自己的persona  |
 
-| original | revise | 说明              |
+按照修正前/后的persona组织
+| original | revise | 说明              |
 |----------|--------|-----------------|
 | O        | X      | 原始的persona产出的数据 |
 | X        | O      | 修正的persona产出的数据 |
 
+按照有无候选组织
 | no_cands | 说明  |
 |----------|-----|
 | O        | 无候选 |
