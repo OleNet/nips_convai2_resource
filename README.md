@@ -27,7 +27,9 @@ Or
 |28| valid_self_revised.txt            |
 
 文件名也代表了数据的组织方式
+
 按照是否含有self/other 的 persona(画像)组织
+
 | both | none | other | self | 说明            |
 |------|------|-------|------|---------------|
 | O    | X    | X     | X    | 两者的persona都有  |
